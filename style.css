@@ -1,11 +1,9 @@
-/* Reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body style */
 body {
     display: flex;
     flex-direction: column;
@@ -17,7 +15,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Toggle Button Container */
 .btn-container {
     width: 150px;
     height: 60px;
@@ -35,13 +32,12 @@ body {
     gap: 35px;
     align-items: center;
 }
-/* Icons inside the button */
+
 .imgs img {
     height: 75%;
     width: 80%;
 }
 
-/* Toggle Button */
 #btn {
     position: absolute;
     height: 50px;
@@ -53,4 +49,5 @@ body {
     left: 5px;
     margin-left: 5px;
     transition: all 0.3s ease;
-}
+    cursor: pointer;
+ }
